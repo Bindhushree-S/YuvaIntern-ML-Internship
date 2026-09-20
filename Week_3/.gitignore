@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local datasets
+data/raw/*
+data/processed/*
+
+# Keep dataset guidance files
+!data/README.md
+
+# Trained model artifacts
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Keep model documentation
+!models/README.md
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
